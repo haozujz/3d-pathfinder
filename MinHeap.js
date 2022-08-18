@@ -35,13 +35,7 @@ class MinHeap {
   
   rescore(item) {
     const i = this.items.indexOf(item)
-    //let iVal = this.getValue(i);
-    //let parentVal = this.getValue(this.parent(i));
-    //if (iVal>parent) {
-      this.bubbleDown(i);      
-    //} else if (iVal<parent) {
-    //  this.bubbleUp(i);
-    //}    
+    this.bubbleDown(i);      
   }
   
   bubbleUp(i=this.items.length-1) {

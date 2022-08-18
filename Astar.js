@@ -407,15 +407,13 @@ class Astar {
   }
 }
  
-//to do:
-//node.weight
-//use node.x/y/z instead of pos = [], but then more garbage to collect if call getPos to return an array?
-                                                                                                                                   
-//delay, timeout, must return promise if missed, other freezes
+//potential updates:
+//node.weight, bi-directional search, orthogonal jump point search
+
+//notes:
+//delay, timeout, must return promise if missed, otherwise freezes
 //while loop freezes but recursive func does not, since break is in function call?                                       
 //passing object vs variables as args: https://stackoverflow.com/questions/42396902/performance-of-passing-object-as-argument-in-javascript
 
-//array.length =0, reuses array: allocated memory, avoids garbaging old arrays       
+//array.length = 0, reuses array: allocated memory, avoids garbaging old arrays       
 //if (integar===2) slightly faster than if (bool) on benchmarks
-                                                                  
-//finding duplicates: https://flexiple.com/find-duplicates-javascript-array/
