@@ -93,7 +93,7 @@ Vue.component('builder',{
               </div>
             </div>
             <div ref="optionBtn10" class="helpscreen-splitVertical" style="height: 20%">
-              <img class="credits-icon" src="https://cdn.glitch.global/f69eabef-cafb-49ca-8abe-21d01b857a68/duck.jpg?v=1660398102711"/>
+              <img :class="['credits-icon', {active:updateMethod==='update-scene'}]" src="https://cdn.glitch.global/f69eabef-cafb-49ca-8abe-21d01b857a68/duck.jpg?v=1660398102711"/>
               <div class="credits-icon-shadow"></div>
             </div>
           </div>
