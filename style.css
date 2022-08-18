@@ -587,6 +587,10 @@ html, body {
   pointer-events: none;
 }
 
+.credits-icon.active {
+  transform: scaleY(-1);
+}
+
 .credits-icon-shadow {
   padding: 0;
   border: 0;
