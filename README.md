@@ -1,7 +1,12 @@
-# Hello Website (blank)
-
-This is a basic static HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window. You can upload assets like images or audio in `assets` to the left. The rest is up to you and your imagination.
-
-## What's in this project?
+# 3D Pathfinder
 
 https://3d-pathfinder.glitch.me/
+
+Visualization of A* search algorithm adapted to 3-dimensional space. Search algorithm utilizes binary heap, maze generator utilizes disjoint set.  
+Optimized to be mobile device compatible.
+
+## Potential updates
+
+- orthogonal jump point search
+- bi-directional search 
+- weighted nodes
