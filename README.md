@@ -1,4 +1,4 @@
-# 3D Pathfinder
+# 3D Pathfinder & Maze generator
 
 https://3d-pathfinder.glitch.me/
 
