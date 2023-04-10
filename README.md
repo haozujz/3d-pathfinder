@@ -11,9 +11,9 @@ Vue.js, A-Frame.
 
 Pull the bottom tab up to reveal controls.  
 Four lugs at the sides reveal/conceal more controls.  
-Tap the duck icon to invert vizualization mode.
-Compass-in-circle icon toggles path animation.
-Circle-in-circle icon toggles path visibility.
+Tap the duck icon to invert vizualization mode.  
+Compass-in-circle icon toggles path animation.  
+Circle-in-circle icon toggles path visibility.  
 Augmented reality (AR) requires a camera.
 
 ## Potential updates
