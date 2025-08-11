@@ -1,5 +1,6 @@
 # 3D Pathfinder & Maze generator
 
+https://editor.p5js.org/Haozu/full/1rRRmaXE1
 https://3d-pathfinder.glitch.me/
 
 Visualization of A* search algorithm adapted to 3-dimensional space. Search algorithm utilizes binary heap, maze generator utilizes disjoint set.  
